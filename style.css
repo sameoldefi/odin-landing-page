@@ -1,4 +1,7 @@
+* {
+    font-family: Roboto, sans-serif;
 
+}
 /* Nav Bar */
 nav {
     background-color: #222d3d;
@@ -28,6 +31,15 @@ header {
     /* padding-bottom: 100px; */
     /* border: 1px solid #e5e7eb; */
     height: 400px;
+}
+
+button {
+background-color: #3882f6;
+color: #f9faf8;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+text-decoration: none;
+border: none;
+padding: 10px;
 }
 .header-text {
     width: 400px;
@@ -90,10 +102,98 @@ h1 {
     text-align: center;
 }
 
-/* body {
+body {
 display: flex;
 flex-direction: column;
 align-content: space-between;
-} */
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 300px;
+    
+
+}
+.quote-items {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.quote-auther {
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 600;
+}
+.quote-main {
+box-sizing: border-box;
+width: 800px;
+height: 140px;
+}
+
+/* Call to Action */
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin: 20px;
+    width: 1000px;
+    border-radius: 40px;
+    gap: 50px;
+}
+
+.sign-up-box {
+padding-bottom: 20px;
+
+}
+.your-time {
+    height: 20px;
+}
+h3 {
+    font-size: 36px;
+    height: 20px;
+}
+.button {
+    display: block;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #f9faf8;
+    border: #f9faf8 solid 3px;
+    font-size: 18px;
+    margin-right: 20px;
+    width: 130px;
+}
+
+footer {
+background-color: #1f2937;
+color: #e5e7eb;
+font-size: 18px;
+text-align: center;
 
 
+}
