@@ -1,13 +1,13 @@
 
 /* Nav Bar */
 nav {
-    background-color: #2b394d;
+    background-color: #222d3d;
    display: flex;
    align-items: center;
    justify-content: space-between;
    padding: 0;
    margin: 0;
-   height: 100px;
+   height: 80px;
 }
 .contect {
     display: flex;
